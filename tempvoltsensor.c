@@ -30,7 +30,6 @@ struct tempvoltsensor_data {
 MODULE_AUTHOR("Nikita Ivanov");
 MODULE_DESCRIPTION("I2C bus driver");
 MODULE_LICENSE("GPL");
-MODULE_ALIAS("platform:skel-i2c");
 
 static ssize_t show_temperature(struct device *dev, struct device_attribute *attr, char *buf)
 {
